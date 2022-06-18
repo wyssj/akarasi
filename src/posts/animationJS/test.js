@@ -4,7 +4,7 @@ window.onload = function() {
 
     ctx.strokeStyle = 'white';
     ctx.moveTo(0, 0);
-    ctx.lineTo(200, 100);
+    ctx.lineTo(200, 10);
     ctx.stroke();
 
     var c = document.getElementById("canvas2");

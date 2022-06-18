@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>| Bloch Sphere |</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="jqmath-0.4.3.min.css">
+    <script src="jqmath-vanilla.min.js"></script>
+    <script defer src="animationJS/blochSphere.js"></script>
+</head>
+
+<body>
+<script src="../generalJS/header.js"></script>
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <div class="home">
+            <h2 class="post-list-heading">Bloch Sphere</h2>
+            <p>The general spin $1/2$ state
+            $$ | &psi; &rangle; = \cos &theta; / 2 | &uparrow; &rangle; + e^{i&phi;} \sin &theta; / 2 | &downarrow; &rangle; $$
+                suggests a representation on the 3-dimensional unit sphere
+            </p>
+            <canvas id="blochSphere" width="300" height="300" style="border:1px solid #000000; background-color:#00F8;">
+            </canvas>
+            <canvas id="bloch"></canvas>
+            <p>State $ | &psi; &rangle;$ is represented by the point
+            $$
+                {n}&nwarr;{ &rightarrow; } = (\table \sin &theta; \cos &phi;; \sin &theta; \sin &phi;; \cos &theta;)
+            $$
+                on the bloch sphere. <br>
+                Note: Point on opposite sides correspond to orthogonal states
+                $$
+                &langle; &psi; _{{n}&nwarr;{ &rightarrow; }} | &psi; _{{n}&nwarr;{ &rightarrow; }} &rangle; = 0 &rang;
+                $$
+                Note: The coordinates of ${n}&nwarr;{ &rightarrow; }$ correspond to the expectation values of the spin operators
+                $$
+                {n}&nwarr;{ &rightarrow; } = 2 / &hbar; &langle; &psi;| S &nwarr; {\^} | &psi; &rangle;
+                = &langle; &psi;| &sigma; &nwarr; {\^} | &psi; &rangle;
+                = (\table &langle; &psi;| &sigma; &nwarr; {\^} _x| &psi; &rangle;; &langle; &psi;| &sigma; &nwarr; {\^} _y | &psi; &rangle;; &langle; &psi;| &sigma; &nwarr; {\^} _z| &psi; &rangle;)
+                $$
+            </p>
+            <p>akjscnrekla c ejkla c ealj cj alej cljs jleh cjl sejlk cjle lekja cklj cclkejc klj lke jce ckje akje ckjela ek
+                kjce lc je clesj ce ejkslec  ejks laejc eccs jkle ce njklc ke ckjesl cse jkcks cj kl ejk
+            </p>
+        </div>
+    </div>
+</main>
+
+<script src="../generalJS/footer.js"></script>
+</body>
+</html>
