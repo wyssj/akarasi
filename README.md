@@ -8,3 +8,6 @@ or
 
 ## Website Link
 https://www.akarasi.com/
+
+## Setup
+npm install lil-gui --save-dev

@@ -1,4 +1,5 @@
-import {OrbitControls} from "./animationJS/OrbitControls";
+import * as THREE from "./three.module.js"
+import {OrbitControls} from "./OrbitControls.js";
 
 
 const scene = new THREE.Scene();
@@ -16,8 +17,7 @@ material.color.set("green");
 
 camera.position.z = 5;
 
-// const controls = new OrbitControls( camera, renderer.domElement );
-
+const controls = new OrbitControls(camera, renderer.domElement);
 
 function animate() {
     requestAnimationFrame(animate);
@@ -33,5 +33,5 @@ window.addEventListener('click',function () {
 });
 
 animate();
-
-
+var axesHelper = new THREE.AxesHelper( 5 );
+scene.add( axesHelper );
