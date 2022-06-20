@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>| Bloch Sphere |</title>
-    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../../main.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-    <script defer type="module" src="animationJS/blochSphere2.js"></script>
-    <script src="animationJS/three.js"></script>
+    <script defer type="module" src="../js/blochSphere.js"></script>
+    <script src="../../utils/three.js"></script>
 </head>
 <!-- Maybe Test out Katex-->
 <body>
-<script src="../generalJS/header.js"></script>
+<script src="../../generalJS/header.js"></script>
 
 <main class="page-content" aria-label="Content">
     <div class="wrapper">
@@ -25,7 +25,7 @@
                 suggests a representation on the 3-dimensional unit sphere
             </p>
 
-            <canvas id="blochSphere" width="300" height="300" style="border:1px solid #000000; background-color:#00F8;">
+            <canvas id="blochSphere" width="300" height="300" style="border:1px solid #000000;">
             </canvas>
             <p>State \( \ket{\psi} \) is represented by the point
                 $$\newcommand\mycolv[1]{\begin{bmatrix}#1\end{bmatrix}}$$
@@ -49,6 +49,6 @@
     </div>
 </main>
 
-<script src="../generalJS/footer.js"></script>
+<script src="../../generalJS/footer.js"></script>
 </body>
 </html>

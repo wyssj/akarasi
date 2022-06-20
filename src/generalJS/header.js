@@ -1,6 +1,6 @@
 const header = '' +
     '<header class="site-header" role="banner">' +
-    '    <div class="wrapper"><a class="site-title" rel="author" href="/src/main">Akarasi</a>' +
+    '    <div class="wrapper"><a class="site-title" rel="author" href="/akarasi/src/mainPage.html">Akarasi</a>' +
     '        <nav class="site-nav">' +
     '            <input type="checkbox" id="nav-trigger" class="nav-trigger"/>' +
     '            <label for="nav-trigger">' +
@@ -10,7 +10,7 @@ const header = '' +
     '            </svg>' +
     '          </span>' +
     '            </label>' +
-    '            <div class="trigger"><a class="page-link" href="../about.html">About</a></div>' +
+    '            <div class="trigger"><a class="page-link" href="/akarasi/src/about.html">About</a></div>' +
     '        </nav>' +
     '    </div>' +
     '</header>' +
