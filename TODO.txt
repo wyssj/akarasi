@@ -1,1 +1,6 @@
 delete three.js and somehow do it independently
+
+blender
+autodesk
+fusion 360
+freeCAD
